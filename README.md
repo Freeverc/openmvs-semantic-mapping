@@ -1,13 +1,14 @@
-# OpenMVS: open Multi-View Stereo reconstruction library
+# OpenMVS With Semantic Mapping
 
 ## Introduction
 
-Forked from openmvs.A semantic maping module has been added as a new application.
+It is a project forked from openmvs.A semantic maping module has been added as a new application.It's true that some parts are not finished yet. 
+#### Added Function:
 - **mesh semanticMaping** for mapping the semantic texture to color the mesh
 #### model:
-![Image text]()
+![Image text](https://github.com/Freeverc/openmvs-semantic-mapping/blob/master/images/model.png)
 #### semantic:
-![Image text]()
+![Image text](https://github.com/Freeverc/openmvs-semantic-mapping/blob/master/images/semantic.png)
 
 ## Introduction about openMVS
 [OpenMVS (Multi-View Stereo)](http://cdcseacave.github.io/openMVS) is a library for computer-vision scientists and especially targeted to the Multi-View Stereo reconstruction community. While there are mature and complete open-source projects targeting Structure-from-Motion pipelines (like [OpenMVG](https://github.com/openMVG/openMVG)) which recover camera poses and a sparse 3D point-cloud from an input set of images, there are none addressing the last part of the photogrammetry chain-flow. *OpenMVS* aims at filling that gap by providing a complete set of algorithms to recover the full surface of the scene to be reconstructed. The input is a set of camera poses plus the sparse point-cloud and the output is a textured mesh. The main topics covered by this project are:
