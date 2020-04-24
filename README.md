@@ -4,7 +4,7 @@
 
 It is a project forked from openmvs.A semantic maping module has been added as a new application.It's true that some parts are not finished yet. 
 #### Added Function:
-- **mesh semanticMaping** for mapping the semantic texture to color the mesh
+- **mesh semantic maping** for mapping the semantic information as texture to the mesh
 #### model:
 ![Image text](https://github.com/Freeverc/openmvs-semantic-mapping/blob/master/images/model.png)
 #### semantic:
